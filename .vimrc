@@ -11,4 +11,8 @@ set backspace=indent,eol,start
 
 syntax on
 
+filetype plugin on
 
+autocmd FileType c,cpp setlocal formatoptions+=cro
+
+colorscheme habamax
