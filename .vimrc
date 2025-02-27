@@ -49,3 +49,6 @@ autocmd BufNewFile,BufRead *.ctf set syntax=rust
 colorscheme tokyonight
 
 autocmd FileType nerdtree setlocal number relativenumber
+
+set clipboard=unnamedplus
+nnoremap x "_x
